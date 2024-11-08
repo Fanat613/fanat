@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Light.ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Medium.ttf");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-SemiBold.ttf");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: square;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "HindSiliguri", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1113px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
